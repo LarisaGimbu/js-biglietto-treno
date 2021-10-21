@@ -19,6 +19,10 @@ if( age < 18 ){
 
 // console.log(totalPrice);
 
+document.getElementById("output").innerHTML = `
+  Il vostro biglietto costa: ${totalPrice.toFixed(2)} euro
+`
+
 
 
 
