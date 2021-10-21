@@ -4,8 +4,8 @@
 //4 sconto SE (età < 18 allora prezzo tot - 20%) altrimenti SE (età > 65 allora prezzo tot - 40%) altrimenti (prezzo totale)
 //
 
-const km = 13; //da cambiare con prompt
-const age = 17; //da cambiare con prompt
+const km = prompt("Inserire il numero di km che desidera percorrere:"); 
+const age = prompt("Inserire la vostra età:"); 
 
 const ticketPrice = km * 0.21 ;
 // console.log(ticketPrice);
